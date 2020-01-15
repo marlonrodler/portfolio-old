@@ -1,7 +1,13 @@
-.scrollspySite {
-  position: relative;
-  overflow: auto;
-  height: 335px;
+.tm-img{
+  width: 200px;
+  height: 200px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.a {
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+ .background-image {
+  height: 390px;
+} 
