@@ -1,0 +1,19 @@
+.tm-img{
+  width: 200px;
+  height: 200px;
+}
+
+h3.a {
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+/* .background-image {
+  background-size: cover;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+
+} */
