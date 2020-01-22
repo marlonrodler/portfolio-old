@@ -208,7 +208,7 @@
 
       <div class="col-sm-12 col-md-10 col-lg-8">
 
-          <form action="">
+          <form action="services/sendEmail.php" method="POST">
 
               <div class="form-row">
 
@@ -232,7 +232,7 @@
 
                   <div class="form-group col-sm-12">
 
-                      <label for="inputEnd">Seu e-mail</label>
+                      <label for="inputEmail">Seu e-mail</label>
                       <input type="text" class="form-control" id="inputEmail" placeholder="nome@exemplo.com">
 
                   </div>
@@ -244,7 +244,7 @@
                   <div class="form-group col-sm-12">
 
                     <label for="exampleFormControlTextarea1">Seu feedback</label>
-                    <textarea class="form-control" id="feedback" rows="3" placeholder="Deixe aqui a sua opnião..."></textarea>
+                    <textarea class="form-control" id="textFeedback" rows="3" placeholder="Deixe sua opnião aqui..."></textarea>
 
                   </div>
 
@@ -254,7 +254,7 @@
 
                   <div class="col-sm-12">
 
-                      <button type="submit" class="btn btn-warning">Enviar</button>
+                      <button type="submit" class="btn btn-warning" id="btnId" onclick="teste();">Enviar</button>
 
                   </div>
 
@@ -297,12 +297,8 @@
 
 </div>
 
-
-  
-  
-
   <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 </body>
 </html>
