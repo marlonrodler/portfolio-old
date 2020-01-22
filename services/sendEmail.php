@@ -7,12 +7,12 @@ if(isset($_POST['inputEmail']) && !empty($_POST['inputEmail'])){
     $email = addslashes($_POST['inputEmail']);
     $feedback = addslashes($_POST['textFeedback']);
 
-    $to = "contato.marlonrodler@gmail.com";
+    $to = "marlon.rodler@hotmail.com";
     $subject = "Contato - Marlon Rodler";
     $body = "Nome: ".$nome. " ".$sobrenome. " \r\n".
             "Email: ".$email. "\r\n".
             "Feedback: ".$feedback;
-    $header = "From:marlon.rodler@hotmail.com"."\r\n".
+    $header = "From:dev@bookhero.com.br"."\r\n".
               "Reply-To:".$email."\r\n".
               "X=Mailer:PHP/".phpversion();
 
