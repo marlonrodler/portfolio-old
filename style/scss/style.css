@@ -11,3 +11,9 @@
   width: 200px;
   height: 200px;
 }
+
+.bg-center{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
