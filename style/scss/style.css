@@ -33,3 +33,8 @@
   margin: auto;
   border: 2px dashed #F1C40D;
 }
+
+.lk { color: inherit; }
+.lk:hover {
+  color: #000000;
+}
