@@ -3,6 +3,10 @@
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.b {
+  text-shadow: rgb(78, 78, 78) 0.05em 0.05em 0.15em;
+}
+
 .background-image {
   height: 395px;
 }
