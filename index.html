@@ -26,9 +26,7 @@
 
       <div class="position-relative bg-center">
 
-        <img class="float-left" style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=277657">
-
-        <img src="img/bg.png" alt="" class="background-image img-fluid">
+        <img id="bg" src="img/bg.png" alt="" class="background-image img-fluid">
         
       </div>
 
@@ -37,6 +35,7 @@
         <img src="img/perfil.jpg" class="img-fluid rounded-circle" alt="Marlon Rodler">
         <h3 class="mt-4 a"><p><strong>/*  Marlon Rodler */</strong></p></h3>
         <p class="a"><em><strong>Web Developer</strong></em></p>
+        <button class="btn btn-warning" id="btnC" onclick="mdNight();"></button>
 
       </div>
     
@@ -52,7 +51,7 @@
 
             <div class="col-12 text-center">
 
-                <h1 class="display-5"><i class="fa fa-address-card text-warning" aria-hidden="true"></i> Sobre</h1>
+                <h1 class="display-5"><i class="fa fa-address-card text-warning" id="i" aria-hidden="true"></i> Sobre</h1>
                 <p class="lead">Olá, meu nome é <strong>Marlon Rodler</strong>, e se você chegou até aqui seja <strong>Bem-Vindo</strong>.</p>
                 <hr>
 
@@ -78,7 +77,7 @@
 
     <div class="col-12 text-center my-5">
 
-        <h1 class="display-5"><i class="fa fa-archive text-warning" aria-hidden="true"></i> Linha do Tempo</h1>
+        <h1 class="display-5"><i class="fa fa-archive text-warning" id="i1" aria-hidden="true"></i> Linha do Tempo</h1>
 
     </div>
 
@@ -93,7 +92,7 @@
           <span class="line"></span>
         </div>
         <div class="card-body">
-          <h5 class="card-title"><i class="fa fa-bullseye text-warning" aria-hidden="true"></i> <a href="https://www.facebook.com/profile.php?id=100009129407335" class="text-reset">Tiro de Guerra</a></h5>
+          <h5 class="card-title"><i class="fa fa-bullseye text-warning" id="i2" aria-hidden="true"></i> <a href="https://www.facebook.com/profile.php?id=100009129407335" class="text-reset">Tiro de Guerra</a></h5>
           <p class="card-subtitle mb-2 text-muted"><em>TG 02-029 - Pirajuí</em></p>
           <p class="card-subtitle mb-2 text-muted"><em>-Atirador/Cabo</em></p>
           <hr>
@@ -116,7 +115,7 @@
               <span class="line"></span>
             </div>
             <div class="card-body">
-                <h5 class="card-title"><i class="fa fa-graduation-cap text-warning" aria-hidden="true"></i> <a href="http://www.fateclins.edu.br/v4.0/" class="text-reset">Fatec - Lins</a></h5>
+                <h5 class="card-title"><i class="fa fa-graduation-cap text-warning" id="i3" aria-hidden="true"></i> <a href="http://www.fateclins.edu.br/v4.0/" class="text-reset">Fatec - Lins</a></h5>
                 <p class="card-subtitle mb-2 text-muted"><em>Prof. Antonio Seabra</em></p>
                 <p class="card-subtitle mb-2 text-muted"><em>-Análise e Desenvolvimento de Sistemas</em></p>
                 <hr>
@@ -139,7 +138,7 @@
             <span class="line"></span>
           </div>
           <div class="card-body">
-            <h5 class="card-title"><i class="fa fa-briefcase text-warning" aria-hidden="true"></i> <a href="https://pirajui.sp.gov.br/index" class="text-reset">Prefeitura Municipal de Pirajuí</a></h5>
+            <h5 class="card-title"><i class="fa fa-briefcase text-warning" id="i4" aria-hidden="true"></i> <a href="https://pirajui.sp.gov.br/index" class="text-reset">Prefeitura Municipal de Pirajuí</a></h5>
             <p class="card-subtitle mb-2 text-muted"><em>Centro de Processamento de Dados</em></p>
             <p class="card-subtitle mb-2 text-muted"><em>-Estagiário</em></p>
             <hr>
@@ -163,7 +162,7 @@
         </div>
         <div class="card-body">
 
-          <h5 class="card-title"><i class="fa fa-briefcase text-warning" aria-hidden="true"></i> <a href="http://ultradisplays.com.br/" class="text-reset">Ultra Displays</a></h5>
+          <h5 class="card-title"><i class="fa fa-briefcase text-warning" id="i5" aria-hidden="true"></i> <a href="http://ultradisplays.com.br/" class="text-reset">Ultra Displays</a></h5>
           <p class="card-subtitle mb-2 text-muted"><em>Indústria e Comércio de Aramados</em></p>
           <p class="card-subtitle mb-2 text-muted"><em>-Analista de Suporte</em></p>
           <hr>
@@ -184,7 +183,7 @@
         <div class="card">
           
           <div class="card-body">
-            <h5 class="card-title"><i class="fa fa-graduation-cap text-warning" aria-hidden="true"></i> <a href="https://eteccafelandia.com.br/" class="text-reset">Etec Cafelândia</a></h5>
+            <h5 class="card-title"><i class="fa fa-graduation-cap text-warning" id="i6" aria-hidden="true"></i> <a href="https://eteccafelandia.com.br/" class="text-reset">Etec Cafelândia</a></h5>
             <p class="card-subtitle mb-2 text-muted"><em>Professora Helcy Moreira Martins Aguiar</em></p>
             <p class="card-subtitle mb-2 text-muted"><em>-Técnico em Informática</em></p>
             <hr>
@@ -212,7 +211,7 @@
 
     <div class="col-12 text-center my-5"  id="feedbk">
 
-        <h1 class="display-4"><i class="fa fa-paper-plane text-warning" aria-hidden="true"></i> Feedback</h1>
+        <h1 class="display-4"><i class="fa fa-paper-plane text-warning" id="i7" aria-hidden="true"></i> Feedback</h1>
 
     </div>
       
@@ -327,10 +326,10 @@
         <h3>Menu</h3>
 
         <div class="list-group text-center">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Home</a>
-            <a href="#sobre" class="list-group-item list-group-item-action list-group-item-primary">Sobre</a>
-            <a href="#linhaT" class="list-group-item list-group-item-action list-group-item-primary">Linha do Tempo</a>
-            <a href="#feedbk" class="list-group-item list-group-item-action list-group-item-primary">Feedback</a>
+            <a href="#" id="grp" class="list-group-item list-group-item-action list-group-item-primary">Home</a>
+            <a href="#sobre" id="grp1" class="list-group-item list-group-item-action list-group-item-primary">Sobre</a>
+            <a href="#linhaT" id="grp2" class="list-group-item list-group-item-action list-group-item-primary">Linha do Tempo</a>
+            <a href="#feedbk" id="grp3" class="list-group-item list-group-item-action list-group-item-primary">Feedback</a>
         </div>
 
     </div>
