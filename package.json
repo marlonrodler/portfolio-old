@@ -21,7 +21,7 @@
     "dotenv": "^8.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "popper.js": "^1.16.0",
     "require": "^2.4.20",
     "sweetalert2": "^9.7.2"
